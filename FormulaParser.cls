@@ -16,7 +16,7 @@ Attribute VB_Exposed = False
 ' ----- class local fields -----
 Private initialized As Boolean
 Private specialDelimiter As String
-Private operatorTokens As Variant
+Private operatorTokens() As Variant
 Private delimiterTokens() As Variant
 Private stringTokens() As Variant
 Private sheetNames() As String
